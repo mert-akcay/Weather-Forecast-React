@@ -1,0 +1,57 @@
+.forecastContainer {
+    width: 51%;
+    min-height: 150px;
+    margin-left: 23%;
+}
+
+.list-container {
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    
+}
+
+.list-item {
+    display: inline;
+}
+
+.forecast {
+    width: 13.941%;
+    min-height: 150px;
+    padding-top: 5px;
+    background-color:rgba(166, 194, 187, 0.301);
+    display: inline-block;  
+    margin-right: 3px;
+    position:static;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.forecast-today{
+    border-style:double;
+    border-width: 1px;
+    background-color:rgba(166, 194, 187, 0.486);
+}
+
+.forecast:hover{
+    background-color:rgba(128, 128, 128, 0.137);
+    
+}
+
+.forecast-today:hover{
+    background-color:rgba(128, 128, 128, 0.322);
+}
+
+.temp{
+    margin-bottom: 20px;
+}
+
+.day{
+    color: grey;
+}
+
+img{
+    pointer-events: none;
+}
